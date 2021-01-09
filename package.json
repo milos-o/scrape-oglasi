@@ -1,0 +1,25 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.6"
+  }
+}
